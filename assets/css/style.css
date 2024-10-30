@@ -1,0 +1,84 @@
+/* Plugin CSS Style */
+.wli-cards { margin: 20px 0; width: 325px; }
+.output-wrapper { font-size: 25px; font-weight: 400; margin: 10px 0; }
+.btn-generate { display: block; margin: 10px 0; }
+.btn-copy-footer, .btn-copy-short { display: none; }
+.btn-generate:hover, .btn-copy-footer:hover, .btn-copy-short:hover  { text-decoration: none; }
+.btn-generate:focus, .btn-copy-footer:focus, .btn-copy-short:focus  { text-decoration: none; }
+.ccng-content-wrapper .cards { margin: 10px 0; height: 25px; }
+.ccng-content-wrapper ul.cards li { display: block; margin: 0px;padding: 0px;border: none; }
+.ccng-content-wrapper .list-unstyled { padding-left: 0; list-style: none; margin-top: 20px !important;  }
+.ccng-content-wrapper .card { float: left; width: 39px;min-width: auto;height: 25px; text-indent: -9999px; background-position: 0 0; margin-right: 4px; margin-top: 5px;border: none;padding: 0;}
+.ccng-content-wrapper .card.a { background: url('../images/card_sprites.png') -10px -10px; }
+.ccng-content-wrapper .card.di { background: url('../images/card_sprites.png') -69px -10px; }
+.ccng-content-wrapper .card.d { background: url('../images/card_sprites.png') -128px -10px; }
+.ccng-content-wrapper .card.j { background: url('../images/card_sprites.png') -10px -80px; }
+.ccng-content-wrapper .card.m { background: url('../images/card_sprites.png') -69px -80px; }
+.ccng-content-wrapper .card.v { background: url('../images/card_sprites.png') -128px -80px; }
+.ccng_validate_message { padding: 5px 0; }
+.ccng_validate_message.error { color: red; }
+.ccng_validate_message.success { color: green; }
+.ccng-input-wrapper.icn input.ccng_card_number {padding: 10px 55px 10px 10px;margin:20px 0;width:100%;}
+.ccng-input-wrapper.icn {position: relative;max-width: 325px;display: inline-block;width:100%;}
+.ccng-input-wrapper.icn:before {
+    content: "";
+    padding-right: 10px;
+    position: absolute;
+    top: 36%;
+    right: 0;
+    width: 48px;
+    height: 25px;
+}
+.btn-validate, .btn-generate {display: block;}
+.ccng-input-wrapper.icn-amex:before {background: url(../images/card_sprites.png) -10px -10px;}
+.ccng-input-wrapper.icn-diners_club:before { background: url('../images/card_sprites.png') -69px -10px; }
+.ccng-input-wrapper.icn-discover:before { background: url('../images/card_sprites.png') -128px -10px; }
+.ccng-input-wrapper.icn-jcb:before { background: url('../images/card_sprites.png') -10px -80px; }
+.ccng-input-wrapper.icn-mastercard:before, .ccng-input-wrapper.icn-maestro:before { background: url('../images/card_sprites.png') -69px -80px; }
+.ccng-input-wrapper.icn-visa:before {background: url(../images/card_sprites.png) -128px -80px;}
+.ccng-input-wrapper.icn-unknown:before {background: url(../images/card-unknown.png) no-repeat;height: 27px;}
+
+.card-warning{
+    padding: 5px 0;
+    color: red; 
+    font-size:14px;
+}
+.wli-tooltip {
+    position: relative;
+    display: inline-block;
+}
+.ccng-content-wrapper .copied-notice {
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    background: #262626;
+    color: #fff;
+    border-radius: 5px;
+    transform: translate(-50%, 0);
+    z-index: 100;
+}
+.ccng-content-wrapper .copied-notice:before {
+    display: block;
+    position: absolute;
+    top: -200%;
+    left: 50%;
+    margin-left: -4.75em;
+    width: 8em;
+    text-align: center;
+    border-radius: 4px;
+    background: #262626;
+    color: white;
+    font-size: 0.8em;
+    line-height: 1.1;
+    padding: 0.75em 0.95em;
+}
+.ccng-content-wrapper .copied-notice::after {
+    content: "";
+    border: 6px solid transparent;
+    border-top-color: #262626;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    margin-left: 0;
+}
